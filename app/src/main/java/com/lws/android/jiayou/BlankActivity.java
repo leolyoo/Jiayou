@@ -14,10 +14,10 @@ import java.io.Serializable;
 import java.util.HashSet;
 import java.util.Stack;
 
-public class BlankActivity extends BaseActivity implements View.OnClickListener{
+public class BlankActivity extends BaseActivity implements View.OnClickListener {
 
     Stack<BlankQuiz> blankQuizzes = new Stack<>();
-    TextView lifeTextView, questionTextView, pronunciationTextView, remainingTextView,meaningTextView;
+    TextView lifeTextView, questionTextView, pronunciationTextView, remainingTextView, meaningTextView;
     Button button1, button2, button3, button4;
 
     String stage, part;
@@ -38,7 +38,7 @@ public class BlankActivity extends BaseActivity implements View.OnClickListener{
         Solving, Finished
     }
 
-    protected void init(){
+    protected void init() {
         setContentView(R.layout.activity_blank);
 
         Intent intent = getIntent();
@@ -56,11 +56,6 @@ public class BlankActivity extends BaseActivity implements View.OnClickListener{
         button2 = findViewById(R.id.button_choice_2);
         button3 = findViewById(R.id.button_choice_3);
         button4 = findViewById(R.id.button_choice_4);
-
-        button1.setOnClickListener(this);
-        button2.setOnClickListener(this);
-        button3.setOnClickListener(this);
-        button4.setOnClickListener(this);
 
         Serializable serializable = getIntent().getSerializableExtra("blanksQuizzes");
         if (serializable instanceof HashSet<?>) {
@@ -90,10 +85,34 @@ public class BlankActivity extends BaseActivity implements View.OnClickListener{
             pronunciation = blankQuiz.getPronunciation();
             meaning = blankQuiz.getMeaning();
 
-            choice1 = blankQuiz.getChoices().get(0);
-            choice2 = blankQuiz.getChoices().get(1);
-            choice3 = blankQuiz.getChoices().get(2);
-            choice4 = blankQuiz.getChoices().get(3);
+            if (blankQuiz.getChoices().size() > 0) {
+                choice1 = blankQuiz.getChoices().get(0);
+                button1.setOnClickListener(this);
+            } else {
+                choice1 = "";
+                button1.setOnClickListener(null);
+            }
+            if (blankQuiz.getChoices().size() > 1) {
+                choice2 = blankQuiz.getChoices().get(1);
+                button2.setOnClickListener(this);
+            } else {
+                choice2 = "";
+                button2.setOnClickListener(null);
+            }
+            if (blankQuiz.getChoices().size() > 2) {
+                choice3 = blankQuiz.getChoices().get(2);
+                button3.setOnClickListener(this);
+            } else {
+                choice3 = "";
+                button3.setOnClickListener(null);
+            }
+            if (blankQuiz.getChoices().size() > 3) {
+                choice4 = blankQuiz.getChoices().get(3);
+                button4.setOnClickListener(this);
+            } else {
+                choice4 = "";
+                button4.setOnClickListener(null);
+            }
         }
     }
 
@@ -113,6 +132,7 @@ public class BlankActivity extends BaseActivity implements View.OnClickListener{
             button4.setText(choice4);
         }
     }
+
     @Override
     public void onClick(View v) {
         if (state == State.Solving) {
@@ -157,14 +177,14 @@ public class BlankActivity extends BaseActivity implements View.OnClickListener{
 
                                 //분기점 life로 판단해서 다음 스테이지 조정
 
-                                if (life == 0){
+                                if (life == 0) {
                                     intent = new Intent(getApplicationContext(), PartActivity.class);
                                     intent.putExtra(Constants.EXTRA_STAGE, stage);
                                     intent.putExtra(Constants.EXTRA_PART, part);
                                     startActivity(intent);
 
-                                }else {
-                                    intent = new Intent(getApplicationContext(),PartActivity.class);
+                                } else {
+                                    intent = new Intent(getApplicationContext(), PartActivity.class);
                                     intent.putExtra(Constants.EXTRA_STAGE, stage);
                                     intent.putExtra(Constants.EXTRA_PART, part);
                                     startActivity(intent);
