@@ -12,6 +12,7 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Random;
 import java.util.Stack;
+import java.util.stream.Collectors;
 
 public class MakeBlankQuiz extends AppCompatActivity {
 
@@ -33,6 +34,7 @@ public class MakeBlankQuiz extends AppCompatActivity {
             @Override
             public void run() {
                 HashSet<Blank> blanks = new HashSet<>(DataLoader.loadBlanks(stage, part));
+
                 blanksQuizzes = generateBlankQuizzes(blanks);
 
                 runOnUiThread(new Runnable() {
@@ -52,7 +54,7 @@ public class MakeBlankQuiz extends AppCompatActivity {
     }
 
     private HashSet<BlankQuiz> generateBlankQuizzes(HashSet<Blank> blanks) {
-        HashSet<BlankQuiz> wordQuizzes = new HashSet<>();
+        HashSet<BlankQuiz> blankQuizzes = new HashSet<>();
 //        ArrayList<Blank> a = new ArrayList<>(blanks);
         Stack<Blank> blankStack = new Stack<>();
         for (Blank blank : blanks) {
@@ -63,9 +65,8 @@ public class MakeBlankQuiz extends AppCompatActivity {
         Blank question;
         HashMap<String, Blank> m = new HashMap<>();
 
-//        while (wordQuizzes.size() < 8) {
         while (!blankStack.empty()) {
-            if (wordQuizzes.size() < 8) {
+            if (blankQuizzes.size() < 8) {
                 Stack<Blank> stack = new Stack<>();
                 for (Blank blank : blanks) {
                     stack.push(blank);
@@ -84,17 +85,39 @@ public class MakeBlankQuiz extends AppCompatActivity {
                     }
                 }
                 m.put(question.getMeaning(), question);
-                ArrayList<Blank> choicesWord = new ArrayList<>(m.values());
-                Collections.shuffle(choicesWord);
+
+                ArrayList<Blank> choicesBlank = new ArrayList<>(m.values());
+
+                Collections.shuffle(choicesBlank);
 
                 ArrayList<String> choices = new ArrayList<>();
-                for (Blank blank : choicesWord) {
+                ArrayList<String> choices2 = new ArrayList<>(); // 중복체크
+
+                for (Blank blank : choicesBlank) {
                     choices.add(blank.getBlank_Answer());
                 }
-                wordQuizzes.add(new BlankQuiz(question.getCharacter(), question.getMeaning(), question.getPronunciation(), question.getBlank_Answer(), choices));
+
+                if (choices.size() < 4) {
+                    ArrayList<Word> words = new ArrayList<>(DataLoader.loadWords(stage, part));
+
+
+                    Collections.shuffle(words);
+                    for (Word word : words) {
+                        choices.add(word.getCharacter());
+                        for (int i =0; i < choices.size(); i ++ ){
+                            if (!choices2.contains(choices.get(i))){
+                                choices2.add(choices.get(i));
+                            }
+                        }
+                    }
+                }
+
+                blankQuizzes.add(new BlankQuiz(question.getCharacter(), question.getMeaning(), question.getPronunciation(), question.getBlank_Answer(), choices2));
 
             }
         }
-        return wordQuizzes;
+        return blankQuizzes;
     }
+
+
 }
