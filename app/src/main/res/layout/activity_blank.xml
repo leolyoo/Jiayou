@@ -137,7 +137,7 @@
         app:layout_constraintLeft_toLeftOf="parent" />
 
     <TextView
-        android:id="@+id/text_remaining"
+        android:id="@+id/tv_remaining"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="1/20"

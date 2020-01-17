@@ -1,6 +1,7 @@
 package com.lws.android.jiayou;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class DataLoader {
     public static ArrayList<Sentence> loadSentences(String stage, String part) {
@@ -568,5 +569,110 @@ public class DataLoader {
                 break;
         }
         return blanks;
+    }
+
+    public static ArrayList<ArrangeData> loadArrangeData(String stage, String part) {
+        ArrayList<ArrangeData> data = new ArrayList<>();
+        switch (stage) {
+            case Constants.STAGE_1:
+                switch (part) {
+                    case Constants.PART_1:
+                        data.add(new ArrangeData("무슨 음료를 마시겠습니까?", Arrays.asList("您", "喝", "什么", "饮料")));
+                        data.add(new ArrangeData("저는 오렌지 주스를 마시겠습니다.", Arrays.asList("我", "喝", "橙汁")));
+                        break;
+                    case Constants.PART_2:
+                        break;
+                }
+                break;
+            case Constants.STAGE_2:
+                switch (part) {
+                    case Constants.PART_1:
+                        break;
+                    case Constants.PART_2:
+                        break;
+                }
+                break;
+            case Constants.STAGE_3:
+                switch (part) {
+                    case Constants.PART_1:
+                        break;
+                    case Constants.PART_2:
+                        break;
+                }
+                break;
+            case Constants.STAGE_4:
+                switch (part) {
+                    case Constants.PART_1:
+                        break;
+                    case Constants.PART_2:
+                        break;
+                }
+                break;
+            case Constants.STAGE_5:
+                switch (part) {
+                    case Constants.PART_1:
+                        break;
+                    case Constants.PART_2:
+                        break;
+                }
+                break;
+            case Constants.STAGE_6:
+                switch (part) {
+                    case Constants.PART_1:
+                        break;
+                    case Constants.PART_2:
+                        break;
+                }
+                break;
+            case Constants.STAGE_7:
+                switch (part) {
+                    case Constants.PART_1:
+                        break;
+                    case Constants.PART_2:
+                        break;
+                }
+                break;
+            case Constants.STAGE_8:
+                switch (part) {
+                    case Constants.PART_1:
+                        break;
+                    case Constants.PART_2:
+                        break;
+                }
+                break;
+            case Constants.STAGE_9:
+                switch (part) {
+                    case Constants.PART_1:
+                        break;
+                    case Constants.PART_2:
+                        break;
+                }
+                break;
+            case Constants.STAGE_10:
+                switch (part) {
+                    case Constants.PART_1:
+                        break;
+                    case Constants.PART_2:
+                        break;
+                }
+                break;
+            case Constants.STAGE_11:
+                switch (part) {
+                    case Constants.PART_1:
+                        break;
+                    case Constants.PART_2:
+                        break;
+                }
+                break;
+            case Constants.STAGE_12:
+                switch (part) {
+                    case Constants.PART_1:
+                        break;
+                    case Constants.PART_2:
+                        break;
+                }
+                break;
+        }
+        return data;
     }
 }

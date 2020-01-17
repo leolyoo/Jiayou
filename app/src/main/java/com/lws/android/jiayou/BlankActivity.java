@@ -1,9 +1,6 @@
 package com.lws.android.jiayou;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
-import android.os.Bundle;
 import android.os.SystemClock;
 import android.view.View;
 import android.widget.Button;
@@ -50,7 +47,7 @@ public class BlankActivity extends BaseActivity implements View.OnClickListener 
         questionTextView = findViewById(R.id.blank_quiz);
         pronunciationTextView = findViewById(R.id.blank_pronunciation);
         meaningTextView = findViewById(R.id.blank_meaning);
-        remainingTextView = findViewById(R.id.text_remaining);
+        remainingTextView = findViewById(R.id.tv_remaining);
 
         button1 = findViewById(R.id.button_choice_1);
         button2 = findViewById(R.id.button_choice_2);

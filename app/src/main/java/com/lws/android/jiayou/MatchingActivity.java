@@ -34,7 +34,7 @@ public class MatchingActivity extends BaseActivity implements View.OnClickListen
         lifeTextView = findViewById(R.id.text_life);
         questionTextView = findViewById(R.id.text_question);
         pronunciationTextView = findViewById(R.id.text_pronunciation);
-        remainingTextView = findViewById(R.id.text_remaining);
+        remainingTextView = findViewById(R.id.tv_remaining);
 
         choiceButton1 = findViewById(R.id.button_choice_1);
         choiceButton2 = findViewById(R.id.button_choice_2);
