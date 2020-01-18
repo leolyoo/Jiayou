@@ -91,12 +91,14 @@ public class MakeBlankQuiz extends AppCompatActivity {
                 Collections.shuffle(choicesBlank);
 
                 ArrayList<String> choices = new ArrayList<>();
-                ArrayList<String> choices2 = new ArrayList<>(); // 중복체크
+                ArrayList<String> choices2 = new ArrayList<>(); // 중복체크된 보기
 
                 for (Blank blank : choicesBlank) {
                     choices.add(blank.getBlank_Answer());
                 }
 
+
+                //보기가 4개 이하 일 때 실행 및 보기 중복체크
                 if (choices.size() < 4) {
                     ArrayList<Word> words = new ArrayList<>(DataLoader.loadWords(stage, part));
 

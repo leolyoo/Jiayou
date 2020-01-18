@@ -1,11 +1,15 @@
 package com.lws.android.jiayou;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.annotation.Dimension;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -63,8 +67,18 @@ public class ArrangeActivity extends BaseActivity implements View.OnClickListene
 
             wordLinearLayout.removeAllViews();
 
+            LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
+            params.setMargins(3,0,3,0);
+            params.weight = 1f;
+            int btnBG = R.drawable.green_btn;
+
             for (String choice : choices) {
+
                 Button button = new Button(this);
+                button.setLayoutParams(params);
+//                button.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT,1f));
+                button.setTextSize(Dimension.SP,20);
+                button.setBackgroundResource(btnBG);
                 button.setText(choice);
                 button.setTag(choice);
                 button.setOnClickListener(this);
@@ -83,6 +97,8 @@ public class ArrangeActivity extends BaseActivity implements View.OnClickListene
             String choice = (String) v.getTag();
             arrange.add(choice);
             TextView textView = new TextView(this);
+            textView.setTextColor(Color.BLACK);
+            textView.setTextSize(22);
             textView.setText(choice);
             sentenceLinearLayout.addView(textView);
             wordLinearLayout.removeView(v);
