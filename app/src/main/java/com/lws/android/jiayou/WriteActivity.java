@@ -3,6 +3,8 @@ package com.lws.android.jiayou;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
@@ -28,6 +30,15 @@ public class WriteActivity extends AppCompatActivity {
 
         GlideDrawableImageViewTarget gifImage = new GlideDrawableImageViewTarget(wordgif);
         Glide.with(this).load(image).into(gifImage);
+
+        Button clear_Drawlayout = (Button) findViewById(R.id.clear_btn);
+        clear_Drawlayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                m.points.clear();
+                m.invalidate();
+            }
+        });
 
     }
 }

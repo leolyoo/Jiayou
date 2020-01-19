@@ -2,15 +2,26 @@ package com.lws.android.jiayou;
 
 import android.content.Intent;
 import android.view.View;
+import android.widget.Button;
 
 public class MainActivity extends BaseActivity {
 
     @Override
     protected void init() {
         setContentView(R.layout.activity_main);
+    Button hskButton = findViewById(R.id.hsk);
+    
+    hskButton.setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            Intent intent = new Intent(getApplicationContext(),hskActivity.class);
+            startActivity(intent);
+        }
+    });
+
     }
 
-    //테스트 커밋
+
 
     public void onStageButtonClick(View view) {
         switch (view.getId()) {

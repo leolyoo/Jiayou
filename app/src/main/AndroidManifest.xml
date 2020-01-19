@@ -21,6 +21,8 @@
         <activity android:name=".VideoActivity" />
         <activity android:name=".PartActivity" />
         <activity android:name=".StageActivity" />
+        <activity android:name=".hskActivity"/>
+        <activity android:name=".hskWordActivity"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
