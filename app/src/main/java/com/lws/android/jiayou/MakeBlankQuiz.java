@@ -101,8 +101,6 @@ public class MakeBlankQuiz extends AppCompatActivity {
                 //보기가 4개 이하 일 때 실행 및 보기 중복체크
                 if (choices.size() < 4) {
                     ArrayList<Word> words = new ArrayList<>(DataLoader.loadWords(stage, part));
-
-
                     Collections.shuffle(words);
                     for (Word word : words) {
                         choices.add(word.getCharacter());
@@ -112,9 +110,10 @@ public class MakeBlankQuiz extends AppCompatActivity {
                             }
                         }
                     }
+                    choices.addAll(choices2);
                 }
 
-                blankQuizzes.add(new BlankQuiz(question.getCharacter(), question.getMeaning(), question.getPronunciation(), question.getBlank_Answer(), choices2));
+                blankQuizzes.add(new BlankQuiz(question.getCharacter(), question.getMeaning(), question.getPronunciation(), question.getBlank_Answer(), choices));
 
             }
         }

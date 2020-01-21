@@ -68,7 +68,7 @@ public class BlankActivity extends BaseActivity implements View.OnClickListener 
     }
 
     private void initialize() {
-        life = 5;
+        life = 2;
         state = State.Solving;
         setFields();
         display();

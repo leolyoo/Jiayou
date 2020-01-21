@@ -169,251 +169,251 @@ public class DataLoader {
                         words.add(new Word("橙汁", "chéngzhī", "오렌지 주스", R.raw.chengzhi));
                         break;
                     case Constants.PART_2:
-                        words.add(new Word("有", "Yǒu", "있다", 1));
-                        words.add(new Word("可乐", "kě lè", "콜라", 2));
-                        words.add(new Word("雪碧", "xuě bì", "사이다", 3));
-                        words.add(new Word("矿泉水", "kuàng quán shuǐ", "물", 4));
-                        words.add(new Word("橙汁", "chéng zhī", "오렌지 주스", 5));
-                        words.add(new Word("苹果汁", "píng guǒ zhī", "사과 주스", 6));
-                        words.add(new Word("芒果汁", "mángguǒ zhī", "망고 주스", 7));
-                        words.add(new Word("番茄汁", "fān qié zhī", "토마토 주스", 8));
-                        words.add(new Word("啤酒", "pí jiǔ", "맥주", 9));
-                        words.add(new Word("葡萄酒", "pú táo jiǔ", "와인", 10));
+                        words.add(new Word("有", "Yǒu", "있다", R.raw.you));
+                        words.add(new Word("可乐", "kě lè", "콜라", R.raw.kele));
+                        words.add(new Word("雪碧", "xuě bì", "사이다", R.raw.xuebi));
+                        words.add(new Word("矿泉水", "kuàng quán shuǐ", "물", R.raw.kuangquanshui));
+                        words.add(new Word("橙汁", "chéng zhī", "오렌지 주스", R.raw.chengzhi));
+                        words.add(new Word("苹果汁", "píng guǒ zhī", "사과 주스", R.raw.pingguozhi));
+                        words.add(new Word("芒果汁", "mángguǒ zhī", "망고 주스", R.raw.mangguozhi));
+                        words.add(new Word("番茄汁", "fān qié zhī", "토마토 주스", R.raw.fanqiezhi));
+                        words.add(new Word("啤酒", "pí jiǔ", "맥주", R.raw.pijiu));
+                        words.add(new Word("葡萄酒", "pú táo jiǔ", "와인", R.raw.putaojiu));
                         break;
                 }
                 break;
             case Constants.STAGE_2:
                 switch (part) {
                     case Constants.PART_1:
-                        words.add(new Word("喝", "hē", "마시다", 1));
-                        words.add(new Word("咖啡", "kāfēi", "커피", 2));
-                        words.add(new Word("还是", "háishì", "~아니면", 3));
-                        words.add(new Word("绿茶", "lǜchá", "녹차", 4));
+                        words.add(new Word("喝", "hē", "마시다", R.raw.he));
+                        words.add(new Word("咖啡", "kāfēi", "커피", R.raw.kafei));
+                        words.add(new Word("还是", "háishì", "~아니면", R.raw.haishi));
+                        words.add(new Word("绿茶", "lǜchá", "녹차", R.raw.lucha));
                         break;
                     case Constants.PART_2:
-                        words.add(new Word("美式咖啡", "měishì kāfēi", "아메리카노", 1));
-                        words.add(new Word("要", "yào", "필요하다, 원하다", 2));
-                        words.add(new Word("红茶", "hóngchá", "홍차", 3));
-                        words.add(new Word("奶茶", "nǎichá", "밀크티", 4));
-                        words.add(new Word("拿铁", "ná tiě", "라떼", 5));
-                        words.add(new Word("杯", "bēi", "잔, 컵", 6));
-                        words.add(new Word("本", "běn", "권", 7));
-                        words.add(new Word("本子", "běn zi", "노트", 8));
-                        words.add(new Word("件", "jiàn", "벌", 9));
-                        words.add(new Word("衣服", "yīfú", "옷", 10));
+                        words.add(new Word("美式咖啡", "měishì kāfēi", "아메리카노", R.raw.ameri));
+                        words.add(new Word("要", "yào", "필요하다, 원하다", R.raw.yao));
+                        words.add(new Word("红茶", "hóngchá", "홍차", R.raw.hongcha));
+                        words.add(new Word("奶茶", "nǎichá", "밀크티", R.raw.naicha));
+                        words.add(new Word("拿铁", "ná tiě", "라떼", R.raw.natie));
+                        words.add(new Word("杯", "bēi", "잔, 컵", R.raw.bei));
+                        words.add(new Word("本", "běn", "권", R.raw.ben));
+                        words.add(new Word("本子", "běn zi", "노트", R.raw.benzi));
+                        words.add(new Word("件", "jiàn", "벌", R.raw.jian));
+                        words.add(new Word("衣服", "yīfú", "옷", R.raw.yifu));
                         break;
                 }
                 break;
             case Constants.STAGE_3:
                 switch (part) {
                     case Constants.PART_1:
-                        words.add(new Word("要", "yào", "원하다", 1));
-                        words.add(new Word("加", "jiā", "더하다", 2));
-                        words.add(new Word("糖", "táng", "설탕", 3));
-                        words.add(new Word("和", "hé", "~와", 4));
-                        words.add(new Word("奶", "nǎi", "크림, 우유", 5));
-                        words.add(new Word("只", "zhǐ", "단지", 6));
+                        words.add(new Word("要", "yào", "원하다", R.raw.yao));
+                        words.add(new Word("加", "jiā", "더하다", R.raw.jia));
+                        words.add(new Word("糖", "táng", "설탕", R.raw.tang));
+                        words.add(new Word("和", "hé", "~와", R.raw.he2));
+                        words.add(new Word("奶", "nǎi", "크림, 우유", R.raw.nai));
+                        words.add(new Word("只", "zhǐ", "단지", R.raw.zhi));
                         break;
                     case Constants.PART_2:
-                        words.add(new Word("要", "yào", "원하다", 1));
-                        words.add(new Word("加", "jiā", "더하다", 2));
-                        words.add(new Word("不", "bù", "부정의 표시", 3));
-                        words.add(new Word("冰块", "bīng kuài", "얼음", 4));
-                        words.add(new Word("柠檬", "níngméng", "레몬", 5));
-                        words.add(new Word("牛奶", "niúnǎi", "우유", 6));
-                        words.add(new Word("请", "qǐng", "청하다", 7));
-                        words.add(new Word("慢", "màn", "느리다", 8));
-                        words.add(new Word("用", "yòng", "드시다", 9));
+                        words.add(new Word("要", "yào", "원하다", R.raw.yao));
+                        words.add(new Word("加", "jiā", "더하다", R.raw.jia));
+                        words.add(new Word("不", "bù", "부정의 표시", R.raw.bu));
+                        words.add(new Word("冰块", "bīng kuài", "얼음", R.raw.bingkuai));
+                        words.add(new Word("柠檬", "níngméng", "레몬", R.raw.ningmeng));
+                        words.add(new Word("牛奶", "niúnǎi", "우유", R.raw.niunai));
+                        words.add(new Word("请", "qǐng", "청하다", R.raw.qing));
+                        words.add(new Word("慢", "màn", "느리다", R.raw.man));
+                        words.add(new Word("用", "yòng", "드시다", R.raw.yong));
                         break;
                 }
                 break;
             case Constants.STAGE_4:
                 switch (part) {
                     case Constants.PART_1:
-                        words.add(new Word("今天", "Jīn tiān", "오늘", 1));
-                        words.add(new Word("有", "yǒu", "있다", 2));
-                        words.add(new Word("两", "liǎng", "둘", 3));
-                        words.add(new Word("种", "zhǒng", "종류", 4));
-                        words.add(new Word("餐食", "cān shí", "식사", 5));
-                        words.add(new Word("喜欢", "xǐ huān", "좋아하다", 6));
-                        words.add(new Word("哪", "nǎ", "어느", 7));
+                        words.add(new Word("今天", "Jīn tiān", "오늘", R.raw.jintian));
+                        words.add(new Word("有", "yǒu", "있다", R.raw.you));
+                        words.add(new Word("两", "liǎng", "둘", R.raw.liang));
+                        words.add(new Word("种", "zhǒng", "종류", R.raw.zhong));
+                        words.add(new Word("餐食", "cān shí", "식사", R.raw.canshi));
+                        words.add(new Word("喜欢", "xǐ huān", "좋아하다", R.raw.xihuan));
+                        words.add(new Word("哪", "nǎ", "어느", R.raw.na));
                         break;
                     case Constants.PART_2:
-                        words.add(new Word("牛肉", "niúròu", "소고기", 1));
-                        words.add(new Word("盖饭", "gài fàn", "덮밥", 2));
-                        words.add(new Word("太…了", "tài…le", "너무 ~하다", 3));
-                        words.add(new Word("淡", "dàn", "싱겁다", 4));
-                        words.add(new Word("给", "gěi", "주다", 5));
-                        words.add(new Word("盐", "yán", "소금", 6));
-                        words.add(new Word("黄油", "huángyóu", "버터", 7));
-                        words.add(new Word("胡椒", "hújiāo", "후추", 8));
+                        words.add(new Word("牛肉", "niúròu", "소고기", R.raw.niurou));
+                        words.add(new Word("盖饭", "gài fàn", "덮밥", R.raw.gaifan));
+                        words.add(new Word("太…了", "tài…le", "너무 ~하다", R.raw.taile));
+                        words.add(new Word("淡", "dàn", "싱겁다", R.raw.dan));
+                        words.add(new Word("给", "gěi", "주다", R.raw.gei));
+                        words.add(new Word("盐", "yán", "소금", R.raw.yan));
+                        words.add(new Word("黄油", "huángyóu", "버터", R.raw.huangyou));
+                        words.add(new Word("胡椒", "hújiāo", "후추", R.raw.hujiao));
                         break;
                 }
                 break;
             case Constants.STAGE_5:
                 switch (part) {
                     case Constants.PART_1:
-                        words.add(new Word("牛肉盖饭", "niúròu gàifàn", "소고기 덮밥", 1));
-                        words.add(new Word("没有", "méiyǒu", "없다", 2));
-                        words.add(new Word("了", "le", "변화", 3));
-                        words.add(new Word("鸡肉", "jīròu", "닭고기", 4));
-                        words.add(new Word("怎么样", "zěnme yàng", "어떠한가", 5));
+                        words.add(new Word("牛肉盖饭", "niúròu gàifàn", "소고기 덮밥",R.raw.sogogi));
+                        words.add(new Word("没有", "méiyǒu", "없다", R.raw.meiyou));
+                        words.add(new Word("了", "le", "변화", R.raw.le));
+                        words.add(new Word("鸡肉", "jīròu", "닭고기", R.raw.jirou));
+                        words.add(new Word("怎么样", "zěnme yàng", "어떠한가", R.raw.zenmeyang));
                         break;
                     case Constants.PART_2:
-                        words.add(new Word("好了", "hǎo le", "다 했다", 1));
-                        words.add(new Word("把", "bǎ", "전치", 2));
-                        words.add(new Word("餐盘", "cān pán", "식사 트레이", 3));
-                        words.add(new Word("可以", "kěyǐ", "가능하다", 4));
-                        words.add(new Word("拿走", "ná zǒu", "가져가다", 5));
+                        words.add(new Word("好了", "hǎo le", "다 했다", R.raw.haole));
+                        words.add(new Word("把", "bǎ", "전치", R.raw.ba));
+                        words.add(new Word("餐盘", "cān pán", "식사 트레이", R.raw.canpan));
+                        words.add(new Word("可以", "kěyǐ", "가능하다", R.raw.keyi));
+                        words.add(new Word("拿走", "ná zǒu", "가져가다", R.raw.nazpu));
                         break;
                 }
                 break;
             case Constants.STAGE_6:
                 switch (part) {
                     case Constants.PART_1:
-                        words.add(new Word("预订", "yùdìng", "예약하다", 1));
-                        words.add(new Word("过", "guò", "경험", 2));
-                        words.add(new Word("特殊餐", "tèshūcān", "special meal", 3));
-                        words.add(new Word("婴儿餐", "yīng'ér cān", "BBML", 4));
+                        words.add(new Word("预订", "yùdìng", "예약하다", R.raw.yuding));
+                        words.add(new Word("过", "guò", "경험", R.raw.guo));
+                        words.add(new Word("特殊餐", "tèshūcān", "special meal", R.raw.teshucan));
+                        words.add(new Word("婴儿餐", "yīng'ér cān", "BBML", R.raw.yingercan));
                         break;
                     case Constants.PART_2:
-                        words.add(new Word("预订", "yùdìng", "예약하다", 1));
-                        words.add(new Word("儿童餐", "értóng cān", "Child Meal", 2));
-                        words.add(new Word("素食", "sù shí", "Vegetarian Meal", 3));
-                        words.add(new Word("溃疡餐", "kuì yáng cān", "Bland Meal", 4));
-                        words.add(new Word("穆斯林餐", "mù sī lín cān", "Muslim Meal", 5));
-                        words.add(new Word("犹太餐", "yóu tài cān", "Kosher Meal", 6));
-                        words.add(new Word("印度餐", "yìn dù cān", "Hindu Meal", 7));
-                        words.add(new Word("还", "hái", "또, 더", 8));
-                        words.add(new Word("需要", "xūyào", "필요하다", 9));
-                        words.add(new Word("什么", "shénme", "무엇", 10));
+                        words.add(new Word("预订", "yùdìng", "예약하다", R.raw.yuding));
+                        words.add(new Word("儿童餐", "értóng cān", "Child Meal", R.raw.ertongcan));
+                        words.add(new Word("素食", "sù shí", "Vegetarian Meal", R.raw.sushi));
+                        words.add(new Word("溃疡餐", "kuì yáng cān", "Bland Meal", R.raw.kuiyangcan));
+                        words.add(new Word("穆斯林餐", "mù sī lín cān", "Muslim Meal", R.raw.muslim));
+                        words.add(new Word("犹太餐", "yóu tài cān", "Kosher Meal", R.raw.youtaican));
+                        words.add(new Word("印度餐", "yìn dù cān", "Hindu Meal", R.raw.yinducan));
+                        words.add(new Word("还", "hái", "또, 더", R.raw.hai));
+                        words.add(new Word("需要", "xūyào", "필요하다", R.raw.xuyao));
+                        words.add(new Word("什么", "shénme", "무엇", R.raw.shenme));
                         break;
                 }
                 break;
             case Constants.STAGE_7:
                 switch (part) {
                     case Constants.PART_1:
-                        words.add(new Word("有点儿", "yǒudiǎnr", "조금", 1));
-                        words.add(new Word("冷", "lěng", "춥다", 2));
-                        words.add(new Word("给", "gěi", "~에게,주다", 3));
-                        words.add(new Word("毛毯", "máotǎn", "담요", 4));
-                        words.add(new Word("头疼", "tóuténg", "머리가 아프다", 5));
-                        words.add(new Word("止疼片", "zhǐ téng piàn", "진통제", 6));
-                        words.add(new Word("拖鞋", "tuōxié", "슬리퍼", 7));
-                        words.add(new Word("眼罩", "yǎnzhào", "안대", 8));
+                        words.add(new Word("有点儿", "yǒudiǎnr", "조금", R.raw.youdianr));
+                        words.add(new Word("冷", "lěng", "춥다", R.raw.leng));
+                        words.add(new Word("给", "gěi", "~에게,주다", R.raw.gei));
+                        words.add(new Word("毛毯", "máotǎn", "담요", R.raw.maotan));
+                        words.add(new Word("头疼", "tóuténg", "머리가 아프다", R.raw.touteng));
+                        words.add(new Word("止疼片", "zhǐ téng piàn", "진통제", R.raw.zhitengpian));
+                        words.add(new Word("拖鞋", "tuōxié", "슬리퍼", R.raw.tuoxie));
+                        words.add(new Word("眼罩", "yǎnzhào", "안대", R.raw.yanzhao));
                         break;
                     case Constants.PART_2:
-                        words.add(new Word("耳机", "ěrjī", "이어폰", 1));
-                        words.add(new Word("好像", "hǎoxiàng", "~인 것 같다", 2));
-                        words.add(new Word("坏", "huài", "고장나다", 3));
-                        words.add(new Word("马上", "mǎshàng", "곧", 4));
-                        words.add(new Word("换", "huàn", "바꾸다", 5));
+                        words.add(new Word("耳机", "ěrjī", "이어폰", R.raw.erji));
+                        words.add(new Word("好像", "hǎoxiàng", "~인 것 같다", R.raw.haoxiang));
+                        words.add(new Word("坏", "huài", "고장나다", R.raw.huai));
+                        words.add(new Word("马上", "mǎshàng", "곧", R.raw.mashang));
+                        words.add(new Word("换", "huàn", "바꾸다", R.raw.huan));
                         break;
                 }
                 break;
             case Constants.STAGE_8:
                 switch (part) {
                     case Constants.PART_1:
-                        words.add(new Word("入境卡", "rù jìng kǎ", "입국신고서", 1));
-                        words.add(new Word("每个人", "měi ge rén", "매 사람", 2));
-                        words.add(new Word("都", "dōu", "모두", 3));
-                        words.add(new Word("要", "yào", "~해야한다", 4));
-                        words.add(new Word("填写", "tián xiě", "작성하다", 5));
-                        words.add(new Word("张", "zhāng", "장", 6));
-                        words.add(new Word("检疫申报单", "jiǎnyì shēnbào dān", "검역신고서", 7));
+                        words.add(new Word("入境卡", "rù jìng kǎ", "입국신고서", R.raw.rujingka));
+                        words.add(new Word("每个人", "měi ge rén", "매 사람", R.raw.meigeren));
+                        words.add(new Word("都", "dōu", "모두", R.raw.dou));
+                        words.add(new Word("要", "yào", "~해야한다", R.raw.yao));
+                        words.add(new Word("填写", "tián xiě", "작성하다", R.raw.jintian));
+                        words.add(new Word("张", "zhāng", "장", R.raw.zhang));
+                        words.add(new Word("检疫申报单", "jiǎnyì shēnbào dān", "검역신고서", R.raw.jianyi));
                         break;
                     case Constants.PART_2:
-                        words.add(new Word("海关申报单", "hǎi guān shēn bào dān", "세관신고서", 1));
-                        words.add(new Word("家人", "jiā rén", "식구", 2));
-                        words.add(new Word("填写", "tián xiě", "작성하다", 3));
-                        words.add(new Word("张", "zhāng", "장", 4));
-                        words.add(new Word("就行", "jiù xíng", "~하면 된다", 5));
+                        words.add(new Word("海关申报单", "hǎi guān shēn bào dān", "세관신고서", R.raw.haiguan));
+                        words.add(new Word("家人", "jiā rén", "식구", R.raw.jiaren));
+                        words.add(new Word("填写", "tián xiě", "작성하다", R.raw.tianxie));
+                        words.add(new Word("张", "zhāng", "장", R.raw.zhang));
+                        words.add(new Word("就行", "jiù xíng", "~하면 된다", R.raw.jiuxing));
                         break;
                 }
                 break;
             case Constants.STAGE_9:
                 switch (part) {
                     case Constants.PART_1:
-                        words.add(new Word("想", "xiǎng", "~하고싶다", 1));
-                        words.add(new Word("买", "mǎi", "사다", 2));
-                        words.add(new Word("口红", "kǒuhóng", "립스틱", 3));
-                        words.add(new Word("要", "yào", "~하려고 하다", 4));
-                        words.add(new Word("哪", "nǎ", "어느", 5));
-                        words.add(new Word("种", "zhǒng", "종류", 6));
-                        words.add(new Word("颜色", "yánsè", "색상yánsè", 7));
+                        words.add(new Word("想", "xiǎng", "~하고싶다", R.raw.xiang));
+                        words.add(new Word("买", "mǎi", "사다", R.raw.mai));
+                        words.add(new Word("口红", "kǒuhóng", "립스틱", R.raw.kouhong));
+                        words.add(new Word("要", "yào", "~하려고 하다", R.raw.yao));
+                        words.add(new Word("哪", "nǎ", "어느", R.raw.na));
+                        words.add(new Word("种", "zhǒng", "종류", R.raw.zhong));
+                        words.add(new Word("颜色", "yánsè", "색상", R.raw.yanse));
                         break;
                     case Constants.PART_2:
-                        words.add(new Word("想", "xiǎng", "~하고싶다", 1));
-                        words.add(new Word("介绍", "jièshào", "소개하다", 2));
-                        words.add(new Word("给", "gěi", "~에게", 3));
-                        words.add(new Word("瓶", "píng", "병", 4));
-                        words.add(new Word("香水", "xiāng shuǐ", "향수", 5));
-                        words.add(new Word("欢迎", "huān yíng", "환영", 6));
-                        words.add(new Word("收到", "shòu dào", "받다", 7));
+                        words.add(new Word("想", "xiǎng", "~하고싶다", R.raw.xiang));
+                        words.add(new Word("介绍", "jièshào", "소개하다",R.raw.jieshao ));
+                        words.add(new Word("给", "gěi", "~에게", R.raw.gei));
+                        words.add(new Word("瓶", "píng", "병", R.raw.ping));
+                        words.add(new Word("香水", "xiāng shuǐ", "향수", R.raw.xiangshui));
+                        words.add(new Word("欢迎", "huān yíng", "환영", R.raw.huanying));
+                        words.add(new Word("收到", "shòu dào", "받다", R.raw.shoudao));
                         break;
                 }
                 break;
             case Constants.STAGE_10:
                 switch (part) {
                     case Constants.PART_1:
-                        words.add(new Word("人民币", "Rénmínbì", "인민폐", 1));
-                        words.add(new Word("多少", "duōshǎo", "얼마", 2));
-                        words.add(new Word("钱", "qián", "돈", 3));
-                        words.add(new Word("块", "kuài", "화폐단위 (소수점 윗자리)", 4));
-                        words.add(new Word("毛", "máo", "화폐단위 (소수점 첫째자리)", 5));
-                        words.add(new Word("分", "fēn", "화폐단위 (소수점 둘째자리)", 6));
-                        words.add(new Word("百", "bǎi", "백", 7));
-                        words.add(new Word("千", "qiān", "천", 8));
-                        words.add(new Word("万", "wàn", "만", 9));
+                        words.add(new Word("人民币", "Rénmínbì", "인민폐", R.raw.renminbi));
+                        words.add(new Word("多少", "duōshǎo", "얼마", R.raw.duoshao));
+                        words.add(new Word("钱", "qián", "돈", R.raw.qian));
+                        words.add(new Word("块", "kuài", "화폐단위 (소수점 윗자리)", R.raw.kuai));
+                        words.add(new Word("毛", "máo", "화폐단위 (소수점 첫째자리)", R.raw.mao));
+                        words.add(new Word("分", "fēn", "화폐단위 (소수점 둘째자리)", R.raw.fen));
+                        words.add(new Word("百", "bǎi", "백", R.raw.bai));
+                        words.add(new Word("千", "qiān", "천", R.raw.qian));
+                        words.add(new Word("万", "wàn", "만", R.raw.wan));
                         break;
                     case Constants.PART_2:
-                        words.add(new Word("汇率", "huìlǜ", "환율", 1));
-                        words.add(new Word("多少", "duōshǎo", "얼마", 2));
-                        words.add(new Word("美元", "měiyuán", "달러", 3));
-                        words.add(new Word("等于", "děngyú", "해당하다", 4));
-                        words.add(new Word("韩币", "hánbì", "한화", 5));
+                        words.add(new Word("汇率", "huìlǜ", "환율", R.raw.huilu));
+                        words.add(new Word("多少", "duōshǎo", "얼마", R.raw.duoshao));
+                        words.add(new Word("美元", "měiyuán", "달러", R.raw.meiyuan));
+                        words.add(new Word("等于", "děngyú", "해당하다", R.raw.dengyu));
+                        words.add(new Word("韩币", "hánbì", "한화", R.raw.hanbi));
                         break;
                 }
                 break;
             case Constants.STAGE_11:
                 switch (part) {
                     case Constants.PART_1:
-                        words.add(new Word("想", "xiǎng", "~하려하다", 1));
-                        words.add(new Word("怎么", "zěnme", "어떻게", 2));
-                        words.add(new Word("用", "사용하다", "사용하다", 3));
-                        words.add(new Word("人民币", "rénmínbì", "인민폐", 4));
+                        words.add(new Word("想", "xiǎng", "~하려하다", R.raw.xiang));
+                        words.add(new Word("怎么", "zěnme", "어떻게", R.raw.zenme));
+                        words.add(new Word("用", "yòng", "사용하다", R.raw.yong));
+                        words.add(new Word("人民币", "rénmínbì", "인민폐", R.raw.renminbi));
                         break;
                     case Constants.PART_2:
-                        words.add(new Word("想", "xiǎng", "~하려 하다", 1));
-                        words.add(new Word("用", "yòng", "사용하다", 2));
-                        words.add(new Word("信用卡", "xìn yòng kǎ", "신용카드", 3));
-                        words.add(new Word("韩币", "hán bì", "원화", 4));
-                        words.add(new Word("美元", "měi yuán", "달러", 5));
-                        words.add(new Word("欧元", "ōu yuán", "유로화", 6));
-                        words.add(new Word("日元", "rì yuán", "엔화", 7));
-                        words.add(new Word("现金", "xiàn jīn", "현금", 8));
-                        words.add(new Word("结算", "jiésuàn", "계산하다", 9));
+                        words.add(new Word("想", "xiǎng", "~하려 하다", R.raw.xiang));
+                        words.add(new Word("用", "yòng", "사용하다", R.raw.yong));
+                        words.add(new Word("信用卡", "xìn yòng kǎ", "신용카드", R.raw.xinongka));
+                        words.add(new Word("韩币", "hán bì", "원화", R.raw.hanbi));
+                        words.add(new Word("美元", "měi yuán", "달러", R.raw.meiyuan));
+                        words.add(new Word("欧元", "ōu yuán", "유로화",R.raw.ouyuan));
+                        words.add(new Word("日元", "rì yuán", "엔화", R.raw.riyuan));
+                        words.add(new Word("现金", "xiàn jīn", "현금", R.raw.xianjin));
+                        words.add(new Word("结算", "jiésuàn", "계산하다", R.raw.jiesuan));
                         break;
                 }
                 break;
             case Constants.STAGE_12:
                 switch (part) {
                     case Constants.PART_1:
-                        words.add(new Word("给", "gěi", "주다", 1));
-                        words.add(new Word("护照", "hù zhào", "여권", 2));
-                        words.add(new Word("和", "hé", "~와", 3));
-                        words.add(new Word("信用卡", "xìn yòng kǎ", "신용카드", 4));
-                        words.add(new Word("在", "zài", "~에", 5));
-                        words.add(new Word("这里", "zhèlǐ", "이곳", 6));
-                        words.add(new Word("签名", "qiānmíng", "서명하다", 7));
+                        words.add(new Word("给", "gěi", "주다", R.raw.gei));
+                        words.add(new Word("护照", "hù zhào", "여권", R.raw.huzhao));
+                        words.add(new Word("和", "hé", "~와", R.raw.he2));
+                        words.add(new Word("信用卡", "xìn yòng kǎ", "신용카드", R.raw.xinongka));
+                        words.add(new Word("在", "zài", "~에", R.raw.zai));
+                        words.add(new Word("这里", "zhèlǐ", "이곳", R.raw.zheli));
+                        words.add(new Word("签名", "qiānmíng", "서명하다", R.raw.qianming));
                         break;
                     case Constants.PART_2:
-                        words.add(new Word("零钱", "líng qián", "잔돈", 1));
-                        words.add(new Word("人民币", "rén mín bì", "인민폐", 2));
-                        words.add(new Word("韩币", "hán bì", "원화", 3));
-                        words.add(new Word("美元", "měi yuán", "달러", 4));
-                        words.add(new Word("确认", "quèrèn", "확인하다", 5));
-                        words.add(new Word("一下", "yíxià", "한번 ~하다", 6));
+                        words.add(new Word("零钱", "líng qián", "잔돈",R.raw.lingqian));
+                        words.add(new Word("人民币", "rén mín bì", "인민폐", R.raw.renminbi));
+                        words.add(new Word("韩币", "hán bì", "원화", R.raw.hanbi));
+                        words.add(new Word("美元", "měi yuán", "달러", R.raw.meiyuan));
+                        words.add(new Word("确认", "quèrèn", "확인하다",R.raw.queren));
+                        words.add(new Word("一下", "yíxià", "한번 ~하다", R.raw.yixia));
                         break;
                 }
                 break;
@@ -427,143 +427,204 @@ public class DataLoader {
             case Constants.STAGE_1:
                 switch (part) {
                     case Constants.PART_1:
-                        blanks.add(new Blank("您 (__) 什么 饮料？", "Nín hē shénme yǐnliào?", "당신은 무슨 음료를 마시겠습니까?", "喝"));
-                        blanks.add(new Blank("您 喝 什么 (__)？", "Nín hē shénme yǐnliào?", "당신은 무슨 음료를 마시겠습니까?", "饮料"));
-                        blanks.add(new Blank("我 喝 (__)。", "Wǒ hē chéngzhī.", "저는 오렌지주스를 마시겠습니다. ", "橙汁"));
+                        blanks.add(new Blank("您 (__) 什么 饮料？", "Nín (__) shénme yǐnliào?", "당신은 무슨 음료를 마시겠습니까?", "喝"));
+                        blanks.add(new Blank("您 喝 什么 (__)？", "Nín hē shénme (__)?", "당신은 무슨 음료를 마시겠습니까?", "饮料"));
+                        blanks.add(new Blank("我 喝 (__)。", "Wǒ hē (__).", "저는 오렌지주스를 마시겠습니다. ", "橙汁"));
                         break;
                     case Constants.PART_2:
-                        blanks.add(new Blank("有  橙汁，苹果汁 (__) 芒果汁。", "Yǒu chéngzhī, píngguǒzhī hé mángguǒzhī.", "오렌지주스, 사과주스와 망고주스가 있습니다.", "和"));
-                        blanks.add(new Blank("我 喝 (__)。", "Wǒ hē píngguǒzhī.", "저는 사과주스를 마시겠습니다.", "苹果汁"));
-                        blanks.add(new Blank("我 喝 (__)。", "Wǒ hē kělè.", "저는 콜라를 마시겠습니다.", "可乐"));
-                        blanks.add(new Blank("我 喝 (__)。", "Wǒ hē fān qié zhī.", "저는 토마토주스를 마시겠습니다.", "番茄汁"));
-                        blanks.add(new Blank("我 喝 (__) 。", "Wǒ hē pí jiǔ.", "저는 맥주를 마시겠습니다.", "啤酒"));
+                        blanks.add(new Blank("有  橙汁，苹果汁 (__) 芒果汁。", "Yǒu chéngzhī, píngguǒzhī (__) mángguǒzhī.", "오렌지주스, 사과주스와 망고주스가 있습니다.", "和"));
+                        blanks.add(new Blank("我 喝 (__)。", "Wǒ hē (__).", "저는 사과주스를 마시겠습니다.", "苹果汁"));
+                        blanks.add(new Blank("我 喝 (__)。", "Wǒ hē (__).", "저는 콜라를 마시겠습니다.", "可乐"));
+                        blanks.add(new Blank("我 喝 (__)。", "Wǒ hē (__).", "저는 토마토주스를 마시겠습니다.", "番茄汁"));
+                        blanks.add(new Blank("我 喝 (__) 。", "Wǒ hē (__).", "저는 맥주를 마시겠습니다.", "啤酒"));
                         break;
                 }
                 break;
             case Constants.STAGE_2:
                 switch (part) {
                     case Constants.PART_1:
-                        blanks.add(new Blank("您 (__) 咖啡 还是 喝 绿茶？", "Nín hē kāfēi háishì hē lǜchá?", "당신은 커피를 마시겠습니까? 아니면 차를 마시겠습니까?", "喝"));
-                        blanks.add(new Blank("您 喝 咖啡 (__) 喝 绿茶？", "Nín hē kāfēi háishì hē lǜchá?", "당신은 커피를 마시겠습니까? 아니면 차를 마시겠습니까?", "还是"));
-                        blanks.add(new Blank("我 喝 (__)。", "Wǒ hē kāfēi.", "저는 커피를 마시겠습니다.", "咖啡"));
-                        blanks.add(new Blank("我 喝 (__) 。", "Wǒ hē lǜchá.", "저는 녹차를 마시겠습니다.", "绿茶"));
+                        blanks.add(new Blank("您 (__) 咖啡 还是 喝 绿茶？", "Nín (__) kāfēi háishì hē lǜchá?", "당신은 커피를 마시겠습니까? 아니면 차를 마시겠습니까?", "喝"));
+                        blanks.add(new Blank("您 喝 咖啡 (__) 喝 绿茶？", "Nín hē kāfēi (__) hē lǜchá?", "당신은 커피를 마시겠습니까? 아니면 차를 마시겠습니까?", "还是"));
+                        blanks.add(new Blank("我 喝 (__)。", "Wǒ hē (__).", "저는 커피를 마시겠습니다.", "咖啡"));
+                        blanks.add(new Blank("我 喝 (__) 。", "Wǒ hē (__).", "저는 녹차를 마시겠습니다.", "绿茶"));
                         break;
                     case Constants.PART_2:
-                        blanks.add(new Blank("我 喝 (__)。", "Wǒ hē měishì kāfēi.", "저는 아메리카노를 마시겠습니다.", "美式咖啡"));
-                        blanks.add(new Blank("我 要 两 (__) 红茶.", "Wǒ yào liǎng bēi hóngchá.", "저는 홍차 2잔을 원합니다.", "杯"));
-                        blanks.add(new Blank("我 (__) 两 杯 拿铁.", "Wǒ yào liǎng bēi ná tiě", "저는 라떼 2잔을 원합니다.", "要"));
-                        blanks.add(new Blank("三 (__) 本子", "sān běn běn zi", "세 권의 노트", "本"));
-                        blanks.add(new Blank("五 (__) 衣服", "wǔ jiàn yīfú", "다섯 벌의 옷", "件"));
+                        blanks.add(new Blank("我 喝 (__)。", "Wǒ hē (__).", "저는 아메리카노를 마시겠습니다.", "美式咖啡"));
+                        blanks.add(new Blank("我 要 两 (__) 红茶.", "Wǒ yào liǎng (__) hóngchá.", "저는 홍차 2잔을 원합니다.", "杯"));
+                        blanks.add(new Blank("我 (__) 两 杯 拿铁.", "Wǒ (__) liǎng bēi ná tiě", "저는 라떼 2잔을 원합니다.", "要"));
+                        blanks.add(new Blank("三 (__) 本子", "sān (__) běn zi", "세 권의 노트", "本"));
+                        blanks.add(new Blank("五 (__) 衣服", "wǔ (__) yīfú", "다섯 벌의 옷", "件"));
                         break;
                 }
                 break;
             case Constants.STAGE_3:
                 switch (part) {
                     case Constants.PART_1:
-                        blanks.add(new Blank("(__) 加 糖 和 奶 吗？", "yào jiā táng hé nǎi ma?", "설탕, 크림을 넣으시겠습니까?", "要"));
-                        blanks.add(new Blank("要 (__) 糖 和 奶 吗？", "yào jiā táng hé nǎi ma?", "설탕, 크림을 넣으시겠습니까?", "加"));
-                        blanks.add(new Blank("我 (__) 要 加 糖。", "Wǒ zhǐ yào jiā táng.", "저는 설탕만 필요합니다.", "只"));
-                        blanks.add(new Blank("我 只 要 (__)。", "Wǒ zhǐ yào jiā táng.", "저는 설탕만 필요합니다.", "加糖"));
-                        blanks.add(new Blank("我 只 要 (__)。", "Wǒ zhǐ yào jiā nǎi.", "저는 설탕만 필요합니다.", "加奶"));
+                        blanks.add(new Blank("(__) 加 糖 和 奶 吗？", "(__) jiā táng hé nǎi ma?", "설탕, 크림을 넣으시겠습니까?", "要"));
+                        blanks.add(new Blank("要 (__) 糖 和 奶 吗？", "yào (__) táng hé nǎi ma?", "설탕, 크림을 넣으시겠습니까?", "加"));
+                        blanks.add(new Blank("我 (__) 要 加 糖。", "Wǒ (__) yào jiā táng.", "저는 설탕만 필요합니다.", "只"));
+                        blanks.add(new Blank("我 只 要 (__)。", "Wǒ zhǐ yào (__).", "저는 설탕만 필요합니다.", "加糖"));
+                        blanks.add(new Blank("我 只 要 (__)。", "Wǒ zhǐ yào (__).", "저는 설탕만 필요합니다.", "加奶"));
                         break;
                     case Constants.PART_2:
-                        blanks.add(new Blank("(__) 冰块 吗？", "yàojiā bīng kuài ma?", "얼음을 넣으시겠습니까?", "要加"));
-                        blanks.add(new Blank("要 加 (__) 吗？", "Yào jiā niúnǎi ma?", "우유를 넣으시겠습니까?", "牛奶"));
-                        blanks.add(new Blank("我 (__) 加 冰块。", "Wǒ bú yào jiā bīng kuài.", "저는 얼음을 넣는 것을 원하지 않습니다.", "不要"));
-                        blanks.add(new Blank("我 不 要 加 (__)。", "Wǒ bú yào jiā níngméng.", "저는 레몬을 넣는 것을 원하지 않습니다.", "柠檬"));
-                        blanks.add(new Blank("请 (__) 用！", "Qǐng màn yòng! 慢", "맛있게 드십시오.", "慢"));
+                        blanks.add(new Blank("(__) 冰块 吗？", "(__) bīng kuài ma?", "얼음을 넣으시겠습니까?", "要加"));
+                        blanks.add(new Blank("要 加 (__) 吗？", "Yào jiā (__) ma?", "우유를 넣으시겠습니까?", "牛奶"));
+                        blanks.add(new Blank("我 (__) 加 冰块。", "Wǒ (__) jiā bīng kuài.", "저는 얼음을 넣는 것을 원하지 않습니다.", "不要"));
+                        blanks.add(new Blank("我 不 要 加 (__)。", "Wǒ bú yào jiā (__).", "저는 레몬을 넣는 것을 원하지 않습니다.", "柠檬"));
+                        blanks.add(new Blank("请 (__) 用！", "Qǐng (__) yòng! 慢", "맛있게 드십시오.", "慢"));
                         break;
                 }
                 break;
             case Constants.STAGE_4:
                 switch (part) {
                     case Constants.PART_1:
-                        blanks.add(new Blank("今天 有 两 种 (__)。", "Jīn tiān yǒu liǎng zhǒng cān shí.", "오늘은 두 종류의 식사가 있습니다.", "餐食"));
-                        blanks.add(new Blank("今天 有 (__) 餐食。", "Jīn tiān yǒu liǎngzhǒng cān shí.", "오늘은 두 종류의 식사가 있습니다.", "两种"));
-                        blanks.add(new Blank("您 喜欢 吃 (__)？", "Nín xǐ huān chī nǎ zhǒng？", "어떤 종류를 드시겠습니까?", "哪种"));
-                        blanks.add(new Blank("您 (__) 吃 哪种？", "Nín xǐ huān chī nǎ zhǒng？", "어떤 종류를 드시겠습니까?", "喜欢"));
+                        blanks.add(new Blank("今天 有 两 种 (__)。", "Jīn tiān yǒu liǎng zhǒng (__).", "오늘은 두 종류의 식사가 있습니다.", "餐食"));
+                        blanks.add(new Blank("今天 有 (__) 餐食。", "Jīn tiān yǒu (__) cān shí.", "오늘은 두 종류의 식사가 있습니다.", "两种"));
+                        blanks.add(new Blank("您 喜欢 吃 (__)？", "Nín xǐ huān chī (__)？", "어떤 종류를 드시겠습니까?", "哪种"));
+                        blanks.add(new Blank("您 (__) 吃 哪种？", "Nín (__) chī nǎ zhǒng？", "어떤 종류를 드시겠습니까?", "喜欢"));
                         break;
                     case Constants.PART_2:
-                        blanks.add(new Blank("我 吃 (__) 盖饭。", "Wǒ chī niúròu gàifàn.", "저는 소고기 덮밥을 먹겠습니다.", "牛肉"));
-                        blanks.add(new Blank("(__) 淡 了。", "Tai dan le.", "너무 싱겁습니다.", "太"));
-                        blanks.add(new Blank("太 (__) 了。", "Tai dan le.", "너무 싱겁습니다.", "淡"));
-                        blanks.add(new Blank("请 (__) 我 盐.", "Qǐng gěi wǒ yán.", "소금을 주십시오.", "给"));
-                        blanks.add(new Blank("请 给 我 (__).", "Qǐng gěi wǒ yán.", "소금을 주십시오.", "盐"));
+                        blanks.add(new Blank("我 吃 (__) 盖饭。", "Wǒ chī (__) gàifàn.", "저는 소고기 덮밥을 먹겠습니다.", "牛肉"));
+                        blanks.add(new Blank("(__) 淡 了。", "(__) dan le.", "너무 싱겁습니다.", "太"));
+                        blanks.add(new Blank("太 (__) 了。", "Tai (__) le.", "너무 싱겁습니다.", "淡"));
+                        blanks.add(new Blank("请 (__) 我 盐.", "Qǐng (__) wǒ yán.", "소금을 주십시오.", "给"));
+                        blanks.add(new Blank("请 给 我 (__).", "Qǐng gěi wǒ (__).", "소금을 주십시오.", "盐"));
                         break;
                 }
                 break;
             case Constants.STAGE_5:
                 switch (part) {
                     case Constants.PART_1:
-                        blanks.add(new Blank("(__) 盖饭 没有 了。", "Niúròu gàifàn méiyǒu le", "소고기 덮밥이 소진되었습니다.", "牛肉"));
-                        blanks.add(new Blank("盖饭 没有 (__)。", "Niúròu gàifàn méiyǒu le", "소고기 덮밥이 소진되었습니다.", "了"));
-                        blanks.add(new Blank("(__)鸡肉盖饭怎么样?", "Chī jīròu gài fàn zěnme yàng?", "닭고기 덮밥을 드시는 것은 어떠십니까?", "吃"));
-                        blanks.add(new Blank("吃鸡肉盖饭(__)?", "Chī jīròu gài fàn zěnme yàng?", "닭고기 덮밥을 드시는 것은 어떠십니까?", "怎么样"));
+                        blanks.add(new Blank("(__) 盖饭 没有 了。", "(__) gàifàn méiyǒu le", "소고기 덮밥이 소진되었습니다.", "牛肉"));
+                        blanks.add(new Blank("盖饭 没有 (__)。", "Niúròu gàifàn méiyǒu (__)", "소고기 덮밥이 소진되었습니다.", "了"));
+                        blanks.add(new Blank("(__)鸡肉盖饭怎么样?", "(__) jīròu gài fàn zěnme yàng?", "닭고기 덮밥을 드시는 것은 어떠십니까?", "吃"));
+                        blanks.add(new Blank("吃鸡肉盖饭(__)?", "Chī jīròu gài fàn (__)?", "닭고기 덮밥을 드시는 것은 어떠십니까?", "怎么样"));
                         break;
                     case Constants.PART_2:
-                        blanks.add(new Blank("吃 (__) 吗？", "Chī hǎole ma?", "다 드셨습니까?", "好了"));
-                        blanks.add(new Blank("(__) 餐盘 可以 拿走 吗?", "Bǎ cānpán kěyǐ názǒu ma?", "가져가도 되겠습니까?", "把"));
-                        blanks.add(new Blank("把 餐盘 可以 (__) 吗?", "Bǎ cānpán kěyǐ názǒu ma?", "가져가도 되겠습니까?", "拿走"));
-                        blanks.add(new Blank("把 (__) 可以 拿走 吗?", "Bǎ cānpán kěyǐ názǒu ma?", "가져가도 되겠습니까?", "把"));
-                        blanks.add(new Blank("(__)", "", "", ""));
-                        blanks.add(new Blank("(__)", "", "", ""));
-                        blanks.add(new Blank("(__)", "", "", ""));
+                        blanks.add(new Blank("吃 (__) 吗？", "Chī (__) ma?", "다 드셨습니까?", "好了"));
+                        blanks.add(new Blank("(__) 餐盘 可以 拿走 吗?", "(__) cānpán kěyǐ názǒu ma?", "가져가도 되겠습니까?", "把"));
+                        blanks.add(new Blank("把 餐盘 可以 (__) 吗?", "Bǎ cānpán kěyǐ (__) ma?", "가져가도 되겠습니까?", "拿走"));
+                        blanks.add(new Blank("把 (__) 可以 拿走 吗?", "Bǎ (__) kěyǐ názǒu ma?", "가져가도 되겠습니까?", "把"));
                         break;
                 }
                 break;
             case Constants.STAGE_6:
                 switch (part) {
                     case Constants.PART_1:
+                        blanks.add(new Blank("你  (__)  过  特殊餐  吗? ", " Nǐ  (__)   guò   tèshūcān   ma? ", "스페셜 밀을 주문하신 적이 있습니까?", "预定"));
+                        blanks.add(new Blank("你 预订 (__)  特殊餐  吗? ", " Nǐ  yùdìng   (__)   tèshūcān   ma? ", "스페셜 밀을 주문하신 적이 있습니까?", " 过"));
+                        blanks.add(new Blank("你 预订 过  (__)  吗? ", " Nǐ  yùdìng   guò   (__)   ma? ", "스페셜 밀을 주문하신 적이 있습니까?", "特殊餐"));
+                        blanks.add(new Blank("这  是  您 预订 的  (__).", "Zhè  shì  nín  yùdìng  de (__). ", "당신이 주문하신 베이비밀입니다.", "婴儿餐 "));
                         break;
                     case Constants.PART_2:
+                        blanks.add(new Blank("这 是 您 (__) 的 儿童餐.", "Zhè shì nín (__) de értóngcān. ", "이것은 당신이 주문한 아동식입니다.", " 预订"));
+                        blanks.add(new Blank("这  是   您   预订  的  (__).", "Zhè shì nín yùdìng de (__).", "이것은 당신이 주문한 아동식입니다.", "儿童餐 "));
+                        blanks.add(new Blank("还  (__)  什么  吗？", " Hái (__) shénme ma?", "더 필요 한 것이 있습니까?", " 需要 "));
+                        blanks.add(new Blank("(__)  需要  什么  吗？", "(__) xūyào shénme ma? ", "더 필요 한 것이 있습니까?", "还"));
+
                         break;
                 }
                 break;
             case Constants.STAGE_7:
                 switch (part) {
                     case Constants.PART_1:
+                        blanks.add(new Blank("我 (__) 冷。 ", " Wǒ (__)  lěng.", "저는 조금 춥습니다", "有点儿"));
+                        blanks.add(new Blank("请 给 我 (__)。", " Qǐng gěi wǒ (__).", "담요를 주세요", "毛毯"));
+                        blanks.add(new Blank("我 有点儿 (__)。", " Wǒ yǒudiǎnr (__).", "저는 머리가 조금 아픕니다", "头疼"));
+                        blanks.add(new Blank("请 给 我  (__) 。 ", "Qǐng gěi wǒ (__).", "안대를 주세요", "眼罩"));
                         break;
                     case Constants.PART_2:
+                        blanks.add(new Blank("耳机 好像 (__).", "ěrjī hǎoxiàng (__)", "이어폰이 고장난 것 같습니다", "坏了"));
+                        blanks.add(new Blank("耳机 (__) 坏了.", "ěrjī (__) huàile", "이어폰이 고장난 것 같습니다", "好像"));
+                        blanks.add(new Blank("我 马上 给 您 (__) 新的.", "Wǒ mǎshàng gěi nín (__) xīnde.", "제가 곧 새것을 바꾸어 드리겠습니다.", "换"));
+                        blanks.add(new Blank("我 (__) 给 您 换 新的.", "Wǒ (__) gěi nín huàn xīnde.", "제가 곧 새것을 바꾸어 드리겠습니다.", "马上"));
+
                         break;
                 }
                 break;
             case Constants.STAGE_8:
                 switch (part) {
                     case Constants.PART_1:
+                        blanks.add(new Blank("这 是 入境卡", "zhè shì rùjìngkǎ.", "이것은 입국신고서입니다.", "入境卡"));
+                        blanks.add(new Blank("每个人 都 要 (__) 1张 入境卡.", "měigerén dōu yào (__) yì  zhāng rù jìng kǎ.", "모든 사람이 1장의 입국신고서를 작성하셔야 합니다. ", "填写"));
+                        blanks.add(new Blank("每个人 都 (__) 填写 1张 入境卡.", "měigerén  dōu (__) tián xiě yì  zhāng rù jìng kǎ.", "모든 사람이 1장의 입국신고서를 작성하셔야 합니다.", "要"));
+                        blanks.add(new Blank("(__) 都 要 填写 1张 入境卡.", "(__)  dōu yào tián xiě yì  zhāng rù jìng kǎ.", "모든 사람이 1장의 입국신고서를 작성하셔야 합니다.", "每个人"));
+                        blanks.add(new Blank("", "", "", ""));
                         break;
                     case Constants.PART_2:
+                        blanks.add(new Blank("这 是 (__).", "Zhè shì (__)", "이것은 세관신고서입니다.", "海关申报单"));
+                        blanks.add(new Blank("(__) 填写一张就行.", "(__) tiánxiě yì zhāng jiùxíng", "가족당 1장을 작성하시면 됩니다.", "一家人"));
+                        blanks.add(new Blank("一家人填写一张 (__)", "Yì jiā rén tiánxiě yì zhāng (__)", "가족당 1장을 작성하시면 됩니다.", "就行"));
+                        blanks.add(new Blank("一家人 (__) 一张就行", "Yì jiā rén (__) yì zhāng jiùxíng", "가족당 1장을 작성하시면 됩니다.", "填写"));
                         break;
                 }
                 break;
             case Constants.STAGE_9:
                 switch (part) {
                     case Constants.PART_1:
+                        blanks.add(new Blank("我 想买 (__).", "Wǒ xiǎng mǎi (__)", "저는 립스틱을 사고 싶습니다.", "口红"));
+                        blanks.add(new Blank("您 要买 哪种 (__) 的 口红?", "Nín yàomǎi nǎzhǒng (__) de kǒuhóng? ", "어떤 색상의 립스틱을 구매하시겠습니까?", "颜色"));
+                        blanks.add(new Blank("我  (__) 口红.", " Wǒ (__) kǒuhóng.", "저는 립스틱을 사고 싶습니다.", "想买"));
+                        blanks.add(new Blank("您  要买  (__) 颜色  的  口红?", "Nín  yàomǎi  (__)   yánsè   de  kǒuhóng? ", "어떤 색상의 립스틱을 구매하시겠습니까? ", "哪种 "));
+
                         break;
                     case Constants.PART_2:
+                        blanks.add(new Blank("我 想 (__) 给您 这 瓶 香水.", "Wǒ xiǎng (__) gěinín zhè ping xiāngshuǐ.", "저는 이 향수를 추천하고 싶습니다.", "介绍"));
+                        blanks.add(new Blank("我  想  介绍  给您  这  (__)  香水.", "Wǒ xiǎng jièshào gěinín zhè (__) xiāngshuǐ.", "저는 이 향수를 추천하고 싶습니다.", "瓶"));
+                        blanks.add(new Blank("这瓶香水 受到 很多人的 (__).", "zhè píng xiāngshuǐ shòudào hěnduō rén de (__).", "이 향수는 많은 사람들에게 인기가 있습니다.", "欢迎"));
+                        blanks.add(new Blank("这瓶香水 (__) 很多人的 欢迎.", "zhè píng xiāngshuǐ (__) hěnduō rén de huān yíng.", "이 향수는 많은 사람들에게 인기가 있습니다.", "受到"));
                         break;
                 }
                 break;
             case Constants.STAGE_10:
                 switch (part) {
                     case Constants.PART_1:
+                        blanks.add(new Blank("(__) 多少 钱？", "(__) duōshǎo qián?", "인민폐로 얼마입니까?", "人民币"));
+                        blanks.add(new Blank("人民币 (__) 钱？", " Rénmínbì (__) qián?", "인민폐로 얼마입니까?", "人民币"));
+                        blanks.add(new Blank("这 是 100 (__) 人民币.", "Zhè shì yìbǎi (__) rénmínbì", "이것은 인민폐 100위안입니다.", "块"));
+                        blanks.add(new Blank("这 是 100 块 (__).", "Zhè shì yìbǎi kuài (__)", "이것은 인민폐 100위안입니다.", "人民币"));
+
                         break;
                     case Constants.PART_2:
+                        blanks.add(new Blank("今天  的 (__) 是 多少?", "Jīntiān de (__) shì duōshǎo?", "오늘 환율이 얼마입니까?", "汇率"));
+                        blanks.add(new Blank("今天  的 汇率 是 (__)?", "Jīntiān de huìlǜ shì (__)?", "오늘 환율이 얼마입니까?", "多少"));
+                        blanks.add(new Blank("1 美元 (__) 1200 韩币", "Yì měiyuán (__) yìqiānèrbǎi hánbì.", "1달러는 한화로 1200원입니다", "等于"));
+                        blanks.add(new Blank("1 (__) 等于 1200 韩币", "Yì (__) děngyú yìqiānèrbǎi hánbì.", "1달러는 한화로 1200원입니다", "美元"));
                         break;
                 }
                 break;
             case Constants.STAGE_11:
                 switch (part) {
                     case Constants.PART_1:
+                        blanks.add(new Blank("想  怎么  (__)   呢？", "Xiǎng  zěnme (__) ne?", "어떻게 계산하시겠습니까?", "结算"));
+                        blanks.add(new Blank("我 想 (__) 人民币 结算.", "Wǒ xiǎng (__) rénmínbì jiésuàn.", "인민폐로 계산하겠습니다.", "用"));
+                        blanks.add(new Blank("想  (__)  结算   呢？", "Xiǎng  (__) jiésuàn ne?", "어떻게 계산하시겠습니까?", "怎么"));
+                        blanks.add(new Blank("我 想 用 人民币 (__).", "Wǒ xiǎng yòng rénmínbì (__).", "인민폐로 계산하겠습니다.", "结算"));
+
                         break;
                     case Constants.PART_2:
+                        blanks.add(new Blank("我 想 用 (__) 结算", "Wǒ xiǎng yòng (__) jiésuàn.", "저는 신용카드로 계산하려고 합니다", "信用卡"));
+                        blanks.add(new Blank("我 想 (__) 信用卡 结算", "Wǒ xiǎng (__) xìnyòngkǎ jiésuàn.", "저는 신용카드로 계산하려고 합니다", "用"));
+                        blanks.add(new Blank("我  想 用 (__) 结算", "Wǒ xiǎng yòng hán bì jiésuàn.", "저는 원화로 계산하려고 합니다.", "韩币"));
+                        blanks.add(new Blank("我  想 用 金现 结算", "Wǒ xiǎng yòng xiàn jīn jiésuàn.", "저는 현금으로 계산하려고 합니다.", "金现"));
+
                         break;
                 }
                 break;
             case Constants.STAGE_12:
                 switch (part) {
                     case Constants.PART_1:
+                        blanks.add(new Blank("请 给我 您的 (__) 和 信用卡.", "Qǐng gěi wǒ nín de  (__) hé xìnyòngkǎ", "여권과 카드를 주시겠습니까?", "护照"));
+                        blanks.add(new Blank("请 在 (__)  签名.", "Qǐng zài (__) qiānmíng.", "이곳에 서명해 주십시오.", "这里"));
+                        blanks.add(new Blank("请 给我 您的 护照 (__) 信用卡.", "Qǐng gěi wǒ nín de  hùzhà (__) xìnyòngkǎ", "여권과 카드를 주시겠습니까?", "和"));
+                        blanks.add(new Blank("请 在 这里  (__).", "Qǐng zài zhèlǐ (__).", "이곳에 서명해 주십시오.", "签名"));
                         break;
                     case Constants.PART_2:
+                        blanks.add(new Blank("这 是 (__) 20块 人民币.", "Zhè  shì língqián  èrshí kuài  rén mín bì.", "이것은 잔돈 20위안입니다.", "零钱"));
+                        blanks.add(new Blank("请  您 (__) 一下.", "Qǐng nín quèrèn yíxià.", "확인해 주십시오. ", "确认"));
+                        blanks.add(new Blank("这 是 零钱 20(__) 人民币.", "Zhè  shì língqián  èrshí (__)  rén mín bì.", "이것은 잔돈 20위안입니다.", "块"));
+                        blanks.add(new Blank("这 是 零钱 20块 (__).", "Zhè  shì língqián  èrshí kuài (__).", "이것은 잔돈 20위안입니다.", "人民币"));
+
                         break;
                 }
                 break;
@@ -581,94 +642,150 @@ public class DataLoader {
                         data.add(new ArrangeData("저는 오렌지 주스를 마시겠습니다.", Arrays.asList("我", "喝", "橙汁")));
                         break;
                     case Constants.PART_2:
+                        data.add(new ArrangeData("오렌지주스, 사과주스와 망고주스가 있습니다.",Arrays.asList("有","橙汁","苹果汁","和","芒果汁")));
+                        data.add(new ArrangeData("저는 와인을 마시겠습니다.",Arrays.asList("我","喝","葡萄酒")));
                         break;
                 }
                 break;
             case Constants.STAGE_2:
                 switch (part) {
                     case Constants.PART_1:
+                        data.add(new ArrangeData("당신은 커피를 마시겠습니까? 아니면 녹차를 마시겠습니까? ",Arrays.asList("您","喝咖啡","还是","喝绿茶")));
+                        data.add(new ArrangeData("저는 커피를 마시겠습니다.",Arrays.asList("我","喝","咖啡")));
+
                         break;
                     case Constants.PART_2:
+                        data.add(new ArrangeData("저는 아메리카노를 마시겠습니다.",Arrays.asList("我","喝","美式咖啡")));
+                        data.add(new ArrangeData("저는 홍차 2잔을 원합니다.",Arrays.asList("我要","两","杯","红茶")));
+                        data.add(new ArrangeData("공책 5권",Arrays.asList("五","本","本子")));
+                        data.add(new ArrangeData("옷 3 벌",Arrays.asList("三","件","衣服")));
                         break;
                 }
                 break;
             case Constants.STAGE_3:
                 switch (part) {
                     case Constants.PART_1:
+                        data.add(new ArrangeData("설탕, 크림을 넣으시겠습니까?",Arrays.asList("要加","糖","和","奶吗？")));
+                        data.add(new ArrangeData("저는 설탕만 필요합니다.",Arrays.asList("我","只","要","加糖")));
                         break;
                     case Constants.PART_2:
+                        data.add(new ArrangeData("얼음을 넣으시겠습니까?",Arrays.asList("要加","冰块","吗")));
+                        data.add(new ArrangeData("저는 얼음을 넣는 것을 원하지 않습니다.",Arrays.asList("我","不要","加","冰块")));
+                        data.add(new ArrangeData("맛있게 드십시오.",Arrays.asList("请","慢","用")));
+
                         break;
                 }
                 break;
             case Constants.STAGE_4:
                 switch (part) {
                     case Constants.PART_1:
+                        data.add(new ArrangeData("오늘은 두 종류의 식사가 있습니다.",Arrays.asList("今天","有","两种","餐食")));
+                        data.add(new ArrangeData("어떤 종류를 드시겠습니까?",Arrays.asList("您","喜欢","吃","哪种")));
                         break;
                     case Constants.PART_2:
+                        data.add(new ArrangeData("저는 소고기 덮밥을 먹겠습니다.",Arrays.asList("我","吃","牛肉","盖饭")));
+                        data.add(new ArrangeData("너무 싱겁습니다.",Arrays.asList("太","淡","了")));
+                        data.add(new ArrangeData("소금을 주십시오.",Arrays.asList("请","给","我","盐")));
+
                         break;
                 }
                 break;
             case Constants.STAGE_5:
                 switch (part) {
                     case Constants.PART_1:
+                        data.add(new ArrangeData("소고기 덮밥이 소진되었습니다.",Arrays.asList("牛肉","盖饭","没有","了")));
+                        data.add(new ArrangeData("닭고기 덮밥을 드시는 것은 어떠십니까?",Arrays.asList("吃","鸡肉","盖饭","怎么样")));
                         break;
                     case Constants.PART_2:
+                        data.add(new ArrangeData("다 드셨습니까?",Arrays.asList("吃","好","了","吗")));
+                        data.add(new ArrangeData("가져가도 되겠습니까?",Arrays.asList("把","餐盘","可以","拿走","吗")));
                         break;
                 }
                 break;
             case Constants.STAGE_6:
                 switch (part) {
                     case Constants.PART_1:
+                        data.add(new ArrangeData("스페셜 밀을 주문하신 적이 있습니까? ",Arrays.asList("你","过","特殊餐","吗")));
+                        data.add(new ArrangeData("당신이 주문하신 베이비밀입니다.",Arrays.asList("这是","您 预订","的","婴儿餐 ")));
                         break;
                     case Constants.PART_2:
+                        data.add(new ArrangeData("이것은 당신이 주문한 아동식 밀입니다",Arrays.asList("这是","您预定","的","儿童餐")));
+                        data.add(new ArrangeData("더 필요 한 것이 있습니까?",Arrays.asList("还","需要","什么","吗")));
                         break;
                 }
                 break;
             case Constants.STAGE_7:
                 switch (part) {
                     case Constants.PART_1:
+                        data.add(new ArrangeData("저는 조금 춥습니다.",Arrays.asList("我","有点儿","冷")));
+                        data.add(new ArrangeData("담요를 주세요",Arrays.asList("请","给","我","毛毯 ")));
+
                         break;
                     case Constants.PART_2:
+                        data.add(new ArrangeData("이어폰이 고장난 것 같습니다.",Arrays.asList("耳机","好像","坏","了")));
+                        data.add(new ArrangeData("제가 곧 새것을 바꾸어 드리겠습니다.",Arrays.asList("我马上","给您","换","新的")));
                         break;
                 }
                 break;
             case Constants.STAGE_8:
                 switch (part) {
                     case Constants.PART_1:
+                        data.add(new ArrangeData("이것은 입국신고서입니다.",Arrays.asList("这","是","入境卡")));
+                        data.add(new ArrangeData("모든 사람이 1장의 입국신고서를 작성하셔야 합니다.",Arrays.asList("每个人","都要","填写","1张入境卡")));
                         break;
                     case Constants.PART_2:
+                        data.add(new ArrangeData("이것은 세관신고서입니다.",Arrays.asList("这 是","海关","申报单")));
+                        data.add(new ArrangeData("가족당 1장을 작성하시면 됩니다.",Arrays.asList("一家人","填写","一张","就行")));
                         break;
                 }
                 break;
             case Constants.STAGE_9:
                 switch (part) {
                     case Constants.PART_1:
+                        data.add(new ArrangeData("저는 립스틱을 사고 싶습니다.",Arrays.asList("我","想","买","口红")));
+                        data.add(new ArrangeData("어떤 색상의 립스틱을 구매하시겠습니까?",Arrays.asList("您","要买","哪种","颜色的","口红")));
                         break;
                     case Constants.PART_2:
+                        data.add(new ArrangeData("저는 이 향수를 추천하고 싶습니다.",Arrays.asList("我想","介绍给您","这瓶","香水")));
+                        data.add(new ArrangeData("이 브랜드의 향수는 많은 사람들에게 인기가 있습니다.",Arrays.asList("这瓶香水","受到","很多人的","欢迎")));
                         break;
                 }
                 break;
             case Constants.STAGE_10:
                 switch (part) {
                     case Constants.PART_1:
+                        data.add(new ArrangeData("인민폐로 얼마입니까?",Arrays.asList("人民币","多少","钱")));
+                        data.add(new ArrangeData("이것은 인민폐 100위안입니다.",Arrays.asList("这是","100","块","人民币")));
                         break;
                     case Constants.PART_2:
+                        data.add(new ArrangeData("오늘 환율이 얼마입니까?",Arrays.asList("今天的","汇率","是","多少")));
+                        data.add(new ArrangeData("1달러는 한화로 1200원입니다.",Arrays.asList("1美元","等于","1200","韩币")));
                         break;
                 }
                 break;
             case Constants.STAGE_11:
                 switch (part) {
                     case Constants.PART_1:
+                        data.add(new ArrangeData("어떻게 계산하시겠습니까?",Arrays.asList("想","怎么","结算","呢")));
+                        data.add(new ArrangeData("인민폐로 계산하겠습니다.",Arrays.asList("我想","用","人民币","结算")));
                         break;
                     case Constants.PART_2:
+                        data.add(new ArrangeData("저는 신용카드로 계산하려고 합니다.",Arrays.asList("我想","用","信用卡","结算")));
+                        data.add(new ArrangeData("저는 원화로 계산하려고 합니다.",Arrays.asList("我","想用","韩币","结算")));
+
                         break;
                 }
                 break;
             case Constants.STAGE_12:
                 switch (part) {
                     case Constants.PART_1:
+                        data.add(new ArrangeData("여권과 카드를 주시겠습니까?",Arrays.asList("请给我","您的","护照和","信用卡")));
+                        data.add(new ArrangeData("이곳에 서명해 주십시오.",Arrays.asList("请","在","这里","签名")));
+
                         break;
                     case Constants.PART_2:
+                        data.add(new ArrangeData("이것은 잔돈 20위안입니다.",Arrays.asList("这是","零钱","20块","人民币")));
+                        data.add(new ArrangeData("확인해 주십시오.",Arrays.asList("请","您","确认","一下")));
                         break;
                 }
                 break;

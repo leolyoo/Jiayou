@@ -38,6 +38,11 @@ public class ExamActivity extends BaseActivity {
             Button choiceButton3 = findViewById(R.id.button_choice_3);
             Button choiceButton4 = findViewById(R.id.button_choice_4);
 
+            choiceButton1.setTextSize(25);
+            choiceButton2.setTextSize(25);
+            choiceButton3.setTextSize(25);
+            choiceButton4.setTextSize(25);
+
 
             WordQuiz wordQuiz = exam.getWordQuizzes().pop();
             String question = wordQuiz.getQuestion();
