@@ -6,6 +6,7 @@ import android.widget.Button;
 
 public class MainActivity extends BaseActivity {
 
+    //커밋 테스트
     @Override
     protected void init() {
         setContentView(R.layout.activity_main);
