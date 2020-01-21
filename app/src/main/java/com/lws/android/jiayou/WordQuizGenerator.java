@@ -39,7 +39,6 @@ public class WordQuizGenerator {
         }
         Collections.shuffle(stack);
 
-
         String question = word.getCharacter();
         String answer = word.getMeaning();
         String pronunciation = word.getPronunciation();
