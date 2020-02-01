@@ -53,12 +53,13 @@ public class WordAdapter extends BaseAdapter {
         characterTextView.setText(word.getCharacter());
         pronunciationTextView.setText(word.getPronunciation());
         meaningTextView.setText(word.getMeaning());
+        final int gifId = word.getGifId();
 
         writeButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(context, WriteActivity.class);
-                intent.putExtra(Constants.EXTRA_WORD, word.getGifId());
+                intent.putExtra(Constants.EXTRA_WORD, gifId);
                 context.startActivity(intent);
             }
         });

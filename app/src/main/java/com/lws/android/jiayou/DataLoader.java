@@ -358,12 +358,12 @@ public class DataLoader {
                     case Constants.PART_1:
                         words.add(new Word("人民币", "Rénmínbì", "인민폐", R.raw.renminbi));
                         words.add(new Word("多少", "duōshǎo", "얼마", R.raw.duoshao));
-                        words.add(new Word("钱", "qián", "돈", R.raw.qian));
+                        words.add(new Word("钱", "qián", "돈", R.raw.qianmoney));
                         words.add(new Word("块", "kuài", "화폐단위 (소수점 윗자리)", R.raw.kuai));
                         words.add(new Word("毛", "máo", "화폐단위 (소수점 첫째자리)", R.raw.mao));
                         words.add(new Word("分", "fēn", "화폐단위 (소수점 둘째자리)", R.raw.fen));
                         words.add(new Word("百", "bǎi", "백", R.raw.bai));
-                        words.add(new Word("千", "qiān", "천", R.raw.qian));
+                        words.add(new Word("千", "qiān", "천", R.raw.qianthousand));
                         words.add(new Word("万", "wàn", "만", R.raw.wan));
                         break;
                     case Constants.PART_2:

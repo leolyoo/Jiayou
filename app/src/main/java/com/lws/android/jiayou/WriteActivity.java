@@ -29,7 +29,7 @@ public class WriteActivity extends AppCompatActivity {
        ImageView wordgif = (ImageView) findViewById(R.id.word_gif);
 
         GlideDrawableImageViewTarget gifImage = new GlideDrawableImageViewTarget(wordgif);
-        Glide.with(this).load(image).into(gifImage);
+        Glide.with(getApplicationContext()).load(image).into(gifImage);
 
         Button clear_Drawlayout = (Button) findViewById(R.id.clear_btn);
         clear_Drawlayout.setOnClickListener(new View.OnClickListener() {
@@ -40,5 +40,11 @@ public class WriteActivity extends AppCompatActivity {
             }
         });
 
+    }
+
+    @Override
+    public void onBackPressed() {
+        finish();
+        super.onBackPressed();
     }
 }

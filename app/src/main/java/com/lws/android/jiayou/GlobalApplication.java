@@ -26,6 +26,7 @@ public class GlobalApplication extends Application {
                         Toast.makeText(getApplicationContext(), "지원하지 않는 언어입니다", Toast.LENGTH_LONG).show();
                         Intent installIntent = new Intent();
                         installIntent.setAction(TextToSpeech.Engine.ACTION_INSTALL_TTS_DATA);
+                        installIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                         startActivity(installIntent);
                     } else {
                         Toast.makeText(getApplicationContext(), "초기화 성공", Toast.LENGTH_LONG).show();

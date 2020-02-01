@@ -11,7 +11,7 @@ public class MainActivity extends BaseActivity {
     protected void init() {
         setContentView(R.layout.activity_main);
     Button hskButton = findViewById(R.id.hsk);
-    
+
     hskButton.setOnClickListener(new View.OnClickListener() {
         @Override
         public void onClick(View v) {
