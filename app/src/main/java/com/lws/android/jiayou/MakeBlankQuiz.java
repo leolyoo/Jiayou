@@ -2,14 +2,17 @@ package com.lws.android.jiayou;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.WindowManager;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Iterator;
 import java.util.Random;
 import java.util.Stack;
 import java.util.stream.Collectors;
@@ -98,6 +101,12 @@ public class MakeBlankQuiz extends AppCompatActivity {
                 }
 
 
+
+                HashSet<String> test = new HashSet<String>(choices);
+                choices.clear();
+                choices.addAll(test);
+
+
                 //보기가 4개 이하 일 때 실행 및 보기 중복체크
                 if (choices.size() < 4) {
                     ArrayList<Word> words = new ArrayList<>(DataLoader.loadWords(stage, part));
@@ -110,10 +119,9 @@ public class MakeBlankQuiz extends AppCompatActivity {
                             }
                         }
                     }
-                    choices.addAll(choices2);
                 }
 
-                blankQuizzes.add(new BlankQuiz(question.getCharacter(), question.getMeaning(), question.getPronunciation(), question.getBlank_Answer(), choices));
+                blankQuizzes.add(new BlankQuiz(question.getCharacter(),  question.getPronunciation(), question.getMeaning(), question.getBlank_Answer(), choices2));
 
             }
         }

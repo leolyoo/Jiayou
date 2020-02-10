@@ -33,6 +33,7 @@
         android:layout_marginTop="8dp"
         android:text="지우기"
         android:textSize="25dp"
+        android:textColor="@color/black"
         android:background="@drawable/roundedbox"
 
 

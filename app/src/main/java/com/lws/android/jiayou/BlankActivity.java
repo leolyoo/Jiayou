@@ -82,34 +82,22 @@ public class BlankActivity extends BaseActivity implements View.OnClickListener 
             pronunciation = blankQuiz.getPronunciation();
             meaning = blankQuiz.getMeaning();
 
-            if (blankQuiz.getChoices().size() > 0) {
+
                 choice1 = blankQuiz.getChoices().get(0);
                 button1.setOnClickListener(this);
-            } else {
-                choice1 = "";
-                button1.setOnClickListener(null);
-            }
-            if (blankQuiz.getChoices().size() > 1) {
+
+
                 choice2 = blankQuiz.getChoices().get(1);
                 button2.setOnClickListener(this);
-            } else {
-                choice2 = "";
-                button2.setOnClickListener(null);
-            }
-            if (blankQuiz.getChoices().size() > 2) {
+
+
                 choice3 = blankQuiz.getChoices().get(2);
                 button3.setOnClickListener(this);
-            } else {
-                choice3 = "";
-                button3.setOnClickListener(null);
-            }
-            if (blankQuiz.getChoices().size() > 3) {
+
+
                 choice4 = blankQuiz.getChoices().get(3);
                 button4.setOnClickListener(this);
-            } else {
-                choice4 = "";
-                button4.setOnClickListener(null);
-            }
+
         }
     }
 

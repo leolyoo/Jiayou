@@ -12,18 +12,41 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".WriteActivity"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.Transparent" />
-        <activity android:name=".MakeBlankQuiz"/>
-        <activity android:name=".ArrangeActivity" />
-        <activity android:name=".BlankActivity" />
-        <activity android:name=".MatchingActivity" />
-        <activity android:name=".ExamActivity" />
-        <activity android:name=".VideoActivity" />
-        <activity android:name=".PartActivity" />
-        <activity android:name=".StageActivity" />
-        <activity android:name=".hskActivity"/>
-        <activity android:name=".hskWordActivity"/>
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".MakeBlankQuiz"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ArrangeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BlankActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MatchingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ExamActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".VideoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PartActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".hskActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".hskWordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.VIEW" />
